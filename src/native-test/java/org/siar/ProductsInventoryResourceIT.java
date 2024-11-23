@@ -3,6 +3,6 @@ package org.siar;
 import io.quarkus.test.junit.QuarkusIntegrationTest;
 
 @QuarkusIntegrationTest
-class GreetingResourceIT extends GreetingResourceTest {
+class ProductsInventoryResourceIT extends ProductsInventoryResourceTest {
     // Execute the same tests but in packaged mode.
 }
