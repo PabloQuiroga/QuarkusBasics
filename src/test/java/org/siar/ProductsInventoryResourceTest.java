@@ -23,7 +23,7 @@ class ProductsInventoryResourceTest {
     @Test
     void testInventory() {
         var result = given()
-                .when().get("/products/123")
+                .when().get("/products/KE180")
                 .then()
                 .statusCode(200)
                 .extract()
